@@ -1,4 +1,4 @@
-```md
+  ```md
 # 🛒 E-Commerce Platform
 
 Selamat datang di **E-Commerce Platform**, sebuah sistem berbasis Laravel yang memungkinkan pengguna untuk menjelajahi produk, menambahkan ke keranjang, melakukan transaksi, dan mengelola pesanan.
@@ -74,15 +74,5 @@ Frontend   : Blade, Tailwind CSS
 Autentikasi: Laravel Middleware
 ```
 
-📧 **Kontak Developer:**  
-```sh
-Email  : haidarfatah@example.com
-GitHub : https://github.com/haidarfatah
-```
 
-## 📜 Lisensi
-
-```sh
-Proyek ini menggunakan MIT License.
-````
-
+---
