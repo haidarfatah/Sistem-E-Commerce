@@ -1,0 +1,441 @@
+/* General Body Style */
+body {
+    background-color: #FBF5DD; /* Background utama */
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+nav.navbar {
+    background: linear-gradient(  #16404D,#A6CDC6);
+}
+
+.navbar-brand img {
+    height: 50px;
+    transition: transform 0.3s;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1); /* Efek zoom ketika hover */
+}
+
+.navbar-nav .nav-link {
+    color: #FBF5DD !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #DDA853 !important; /* Warna link saat hover */
+}
+
+.navbar-nav .nav-link.active {
+    color: #DDA853 !important; /* Warna untuk active link */
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    background-color: #FBF5DD;
+    border-radius: 2px;
+}
+
+.nav-item {
+    margin-left: 1rem;
+}
+
+/* Responsiveness for Navbar */
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .navbar-brand img {
+        height: 40px;
+    }
+}
+
+/* Footer Styles */
+footer {
+    background-color: #16404D;
+    color: #FBF5DD;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 14px;
+}
+
+footer a {
+    color: #DDA853;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #FBF5DD;
+}
+
+/* Buttons */
+.btn-custom {
+    background-color: #DDA853;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #16404D;
+    color: #FBF5DD;
+    transform: translateY(-3px);
+}
+.navbar-nav .nav-link i {
+    margin-right: 8px; /* Tambahkan jarak antara ikon dan teks */
+    font-size: 16px;  /* Atur ukuran ikon */
+    vertical-align: middle;
+}
+
+/*================= product show =======*/
+/* General Container Adjustments */
+.container {
+    max-width: 1200px;
+    padding: 15px;
+}
+
+/* Product Image Styling */
+.product-card {
+    background-color: #A6CDC6;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.product-image {
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Product Title Styling */
+.product-title {
+    color: #16404D;
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+/* Product Description */
+.product-description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Product Price */
+.product-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn-add-to-cart {
+    background-color: #DDA853;
+    color: #FBF5DD;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-add-to-cart:hover {
+    background-color: #16404D;
+    color: #FBF5DD;
+    transform: translateY(-3px);
+}
+
+.btn-back-home {
+    border: 2px solid #16404D;
+    color: #16404D;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-back-home:hover {
+    background-color: #16404D;
+    color: #FBF5DD;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .product-title {
+        font-size: 1.5rem;
+    }
+
+    .product-price {
+        font-size: 1.2rem;
+    }
+}
+
+/*================= home ========*/
+   /* General Styles */
+   .container {
+    padding: 15px;
+}
+
+.section-title {
+    color: #16404D;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Alert */
+.alert-success-custom {
+    background-color: #A6CDC6;
+    color: #16404D;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* Product Card */
+.product-card {
+    border-radius: 10px;
+    background-color: #A6CDC6; /* Background kartu produk */
+    border: 1px solid #E0E0E0; /* Border yang membedakan kartu */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.product-img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+    height: 160px;
+    transition: transform 0.3s ease;
+}
+
+.product-img:hover {
+    transform: scale(1.05);
+}
+
+.product-name {
+    color: #16404D;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.product-description {
+    font-size: 0.9rem;
+    color: #FBF5DD;
+}
+
+/* Buttons */
+.btn-details {
+    background-color: #DDA853;
+    color: #16404D;
+   
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-details:hover {
+    background-color: #16404D;
+    color: #FBF5DD;
+    transform: translateY(-3px);
+}
+
+.btn-add-to-cart {
+    background-color: #16404D;
+    color: #FBF5DD;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-add-to-cart:hover {
+    background-color: #16120d;
+    color: #FBF5DD;
+    transform: translateY(-3px);
+}
+
+/* Form Check */
+.form-check-input {
+    accent-color: #DDA853;
+}
+
+.form-check-label {
+    color: #16404D;
+    font-size: 0.9rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .product-img {
+        height: 140px;
+    }
+
+    .product-name {
+        font-size: 0.9rem;
+    }
+
+    .product-description {
+        font-size: 0.8rem;
+    }
+
+    .btn-add-to-cart {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
+ /* Mengatur posisi tombol */
+ .btn-add-to-cart {
+    background-color: #DDA853;
+    color: #FBF5DD;
+    border: 2px solid #16404D;
+    padding: 6px 12px;
+    font-size: 0.9rem;
+}
+
+.btn-add-to-cart:hover {
+    background-color: #16404D;
+    color: #FBF5DD;
+    border-color: #C89A42;
+}
+
+/*=========================  History order index============= */
+  /* General Styles */
+  .table-hover tbody tr:hover {
+    background-color: #FDF2E1;
+}
+
+.btn-view-details {
+    background-color: #DDA853;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-view-details:hover {
+    background-color: #16404D;
+    color: #FBF5DD;
+}
+
+/* Badge Styles */
+.badge {
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.badge-status-pending {
+    background-color: #DDA853;
+    color: white;
+}
+
+.badge-status-completed {
+    background-color: #A6CDC6;
+    color: #16404D;
+}
+
+.badge-status-cancelled {
+    background-color: #16404D;
+    color: white;
+}
+
+.badge-status-other {
+    background-color: #FBF5DD;
+    color: #16404D;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .table {
+        font-size: 0.85rem;
+    }
+
+    .btn-view-details {
+        font-size: 0.8rem;
+        padding: 5px 10px;
+    }
+
+    .table-responsive {
+        border: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .table thead {
+        display: none;
+    }
+
+    .table tbody tr {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .table tbody td {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 10px;
+        border: none;
+        border-bottom: 1px solid #A6CDC6;
+    }
+
+    .table tbody td:last-child {
+        border-bottom: none;
+    }
+
+    .order-row:hover {
+        background-color: #FBF5DD;
+    }
+}
+
+/* =================Admin Dashboard ========================= */
+.btn-custom {
+    background-color: #16404D;
+    color: #FBF5DD;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 0.9rem; /* Lebih kecil */
+    transition: all 0.3s ease;
+}
+.btn-custom:hover {
+    background-color: #DDA853;
+    color: #FBF5DD;
+}
+.hover-effect {
+    transition: all 0.3s ease;
+}
+.hover-effect:hover {
+    transform: scale(0.97); /* Mengecilkan ukuran saat hover */
+    background-color: #16404D; /* Mengubah warna latar belakang */
+    color: #FBF5DD; /* Mengubah warna teks */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Bayangan lebih tajam */
+}
+.hover-effect:hover .icon-color {
+    color: #DDA853; /* Mengubah warna ikon saat hover */
+}
+.icon-color {
+    color: #16404D; /* Warna ikon default */
+    transition: color 0.3s ease;
+}
+
+
+/* ======footerr =========== */
