@@ -1,3 +1,4 @@
+```md
 # 🛒 E-Commerce Platform
 
 Selamat datang di **E-Commerce Platform**, sebuah sistem berbasis Laravel yang memungkinkan pengguna untuk menjelajahi produk, menambahkan ke keranjang, melakukan transaksi, dan mengelola pesanan.
@@ -23,13 +24,19 @@ Untuk mengimpor database, silakan unduh file SQL berikut:
 
 ### 📌 Cara Menggunakan:
 
-```sh
-1. Unduh file SQL dari tautan di atas.
-2. Buka aplikasi database (phpMyAdmin, MySQL Workbench, atau CLI).
-3. Buat database baru, contoh: `ecommerce_db`.
-4. Impor file SQL ke dalam database tersebut.
-5. Sesuaikan konfigurasi `.env` dengan nama database yang dibuat.
+1. **Unduh** file SQL dari tautan di atas.  
+2. **Buka** aplikasi database (phpMyAdmin, MySQL Workbench, atau CLI).  
+3. **Buat database baru**, contoh: `ecommerce_db`.  
+4. **Impor** file SQL ke dalam database tersebut.  
+5. **Sesuaikan konfigurasi** `.env` dengan nama database yang dibuat.  
 
+---
+
+## 🚀 Instalasi & Konfigurasi
+
+### 1️⃣ **Clone Repository**  
+
+```sh
 git clone https://github.com/username/ecommerce-platform.git
 cd ecommerce-platform
 composer install
@@ -38,7 +45,17 @@ php artisan key:generate
 php artisan migrate --seed
 npm install && npm run dev
 php artisan serve
+```
 
+🌐 **Akses aplikasi di:** [`http://localhost:8000`](http://localhost:8000)  
+
+---
+
+## 🔑 Akun Login Awal
+
+Gunakan kredensial berikut untuk login:  
+
+```sh
 Admin:
 Email    : admin@example.com
 Password : password
@@ -46,12 +63,28 @@ Password : password
 Customer:
 Email    : customer@example.com
 Password : password
+```
 
+---
+
+## 🛠 Teknologi yang Digunakan
+
+```sh
 Backend    : Laravel 11
 Database   : MySQL
 Frontend   : Blade, Tailwind CSS
 Autentikasi: Laravel Middleware
+```
 
-Dashboard Admin    : ![Dashboard](https://raw.githubusercontent.com/username/ecommerce-platform/main/public/images/dashboard.png)
-Halaman Produk     : ![Produk](https://raw.githubusercontent.com/username/ecommerce-platform/main/public/images/products.png)
-Keranjang Belanja  : ![Keranjang](https://raw.githubusercontent.com/username/ecommerce-platform/main/public/images/cart.png)
+📧 **Kontak Developer:**  
+```sh
+Email  : haidarfatah@example.com
+GitHub : https://github.com/haidarfatah
+```
+
+## 📜 Lisensi
+
+```sh
+Proyek ini menggunakan MIT License.
+````
+
