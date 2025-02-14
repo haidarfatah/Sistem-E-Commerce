@@ -72,12 +72,4 @@ Database   : MySQL
 Frontend   : Blade, Tailwind CSS
 Autentikasi: Laravel Middleware
 ```
-
 ---
----
----
-
-## 📜 Lisensi
-
-```sh
-Proyek ini menggunakan MIT License.
